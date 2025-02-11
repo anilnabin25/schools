@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>School</title>
-   </head>
-   <body>
-      <h1>Welcome to my website! ⭐️</h1>
-      <p>How was your day? 🎉</p>
-   </body>
+<head>
+    <title>School template</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-clifford: #da373d;
+        }
+    </style>
+</head>
+<body>
+<div class="w-full rounded-lg border border-gray-200 bg-white p-4 text-center shadow-sm sm:p-8 dark:border-gray-700 dark:bg-gray-800">
+    <h5 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white">School Templates</h5>
+    <p class="mb-5 text-base text-gray-500 sm:text-lg dark:text-gray-400">List of school templates</p>
+    <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 rtl:space-x-reverse">
+        <ul class="w-48 rounded-lg border border-gray-200 bg-white text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
+            <a href="award">
+                <li class="w-full rounded-t-lg border-b border-gray-200 px-4 py-2 dark:border-gray-600">Award</li>
+            </a>
+<!--            <li class="w-full border-b border-gray-200 px-4 py-2 dark:border-gray-600">Settings</li>-->
+<!--            <li class="w-full border-b border-gray-200 px-4 py-2 dark:border-gray-600">Messages</li>-->
+<!--            <li class="w-full rounded-b-lg px-4 py-2">Download</li>-->
+        </ul>
+    </div>
+</div>
+</body>
 </html>
